@@ -1271,3 +1271,12 @@
 //Broken Skills
 #define Roll12ID 255
 #define TraceID 255
+
+//Custom Skills
+
+#define StrongID 255
+
+//PhantomSentine Skills
+
+#define DefenderID 255
+#define DelivererID 255
