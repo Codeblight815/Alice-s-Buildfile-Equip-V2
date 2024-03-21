@@ -247,3 +247,14 @@ Select an ally to heal.[X]
 
 ## DrawBackTargetBottomText
 Select an ally to pull.[X]
+
+//
+
+## EquipEquipmentDescription
+Ready this equipment.[X]
+
+## UnequipName
+Unequip[X]
+
+## UnequipEquipmentDescription
+Remove this equipment.[X]
