@@ -4,11 +4,11 @@
 
 ProcLoopParent:
 #incbin "ProcLoop/proc_loop.dmp"
-POIN ProcLoop_Start	//start
+POIN Proc_Start	//start
 
 POIN Proc_Devil	//devil effect
 
-
+POIN IncrementAttackCount
 
 #ifndef COMBAT_ARTS
 	POIN Proc_Sureshot Proc_Luna 
@@ -140,3 +140,4 @@ SHORT 0x2900
 SHORT 0xD123
 SHORT 0xE011
 POP
+
