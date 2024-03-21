@@ -745,6 +745,8 @@
   ldr     r4, =gGenericBuffer
   mov     r1, r4
   blh     Decompress
+  ldr r0, [r6, #0xC]
+blh DrawUnitEquippedItem
   ldr     r0, =#0x20049EE     @somewhere on the bgmap
   mov     r2, #0xC1
   lsl     r2, r2, #0x6
@@ -810,7 +812,8 @@
   mov     r2, #0xC1
   lsl     r2, r2, #0x6
   blh     BgMap_ApplyTsa
-  
+  ldr r0, [r6, #0xC]
+blh DrawUnitEquippedItem
   cmp     r5, #0x0
   bne     SS_DoneEquipHighlightBar
   
@@ -926,6 +929,9 @@
   cmp     r4, #0x7
   ble     loc_0x8087660
   
+  b SkipPool
+.ltorg
+SkipPool:
 .endm
 
 .macro draw_items_text showBallista=0
