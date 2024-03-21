@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pAidModifiers: // Aid
-	POIN prAddUnitFinalConstitution prSubstractOne prAdjustAidIfMounted
+	POIN prAddUnitFinalConstitution prSubstractOne prAdjustAidIfMounted prStrongBonus
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif
@@ -20,6 +20,7 @@ prAdjustAidIfMounted:
 {
 	rIfUnitHasAttribute(CA_MOUNTEDAID)
 		rCallSequence(_prNegate _prAddBaseMountedAidBonus _prAddMoreIfNotFemale)
+		
 
 _prNegate:
 	rMinus(rCurrent)

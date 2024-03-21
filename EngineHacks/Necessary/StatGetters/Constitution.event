@@ -4,7 +4,7 @@
 #include "_Common.event"
 ALIGN 4
 pConModifiers: // Consitition
-	POIN prAddUnitBaseCon prAddUnitConBonus prItemPassiveCon prGetItemConBonus
+	POIN prAddUnitBaseCon prAddUnitConBonus prItemPassiveCon prGetItemConBonus prEquipmentBonusCon
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif
@@ -23,6 +23,12 @@ _prAddCharConBonus: // byte 0x13 in ROM char data is personal consition bonus
 
 prAddUnitConBonus:
 	rAdd(rSByteAt(UNIT_CON_BONUS))
+	
+prAddEquipConstitution:
+	rAdd(rForUnitEquipped(rCallExternal(prGetItemConBonus)))
+	
+prEquipmentBonusCon:
+	rEquipmentBonus(STAT_CON)
 
 #include "_asm/GetItemConBonus.lyn.event" 
 

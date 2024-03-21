@@ -16,7 +16,9 @@ prAddUnitMaxHP:
 prAddEquipHP:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemHPBonus)))
 
-
+prEquipmentBonusHP:
+	rEquipmentBonus(STAT_HP)
+	
 
 prItemPassiveHp:
 #ifndef DONT_STACK_BOOSTS

@@ -9,6 +9,7 @@ pDefenseModifiers: // Defense
 	POIN prAddEquipDefense prItemPassiveDefense prRallyDef prLifeAndDeathMinus VigorDanceCheck prSkillFury prFortressDefenseDef prDefiantDef prPushDef
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
+	POIN prDefenderBonus prEquipmentBonusDef
 	#endif
 WORD 0
 
@@ -17,6 +18,9 @@ prAddUnitDefense:
 	
 prAddEquipDefense:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemDefBonus)))
+	
+prEquipmentBonusDef:
+	rEquipmentBonus(STAT_DEFENSE)
 
 	
 prFortressDefenseDef:
