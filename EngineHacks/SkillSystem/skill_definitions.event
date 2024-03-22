@@ -920,6 +920,10 @@
 //By Kirb
 #define TomeRangeUpID 135
 
+//High Ground: Maximum range of all tomes and bows increased by 2 when on specified terrain.
+//By Snerdels
+#define HighGroundID 0
+
 
 //Rounds Data Skills
 

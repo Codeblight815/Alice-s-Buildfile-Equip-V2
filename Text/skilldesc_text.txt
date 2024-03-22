@@ -1814,3 +1814,7 @@ Winged Rider: Grants the user[N]
 ## SD_WiseTurtle
 Wise Turtle: If foe’s Move > unit’s[N]
 Move, -4 Damage taken.[X]
+
+## SD_HighGround
+High Ground: If on a fort, +2[N]
+range to all ranged weapon types.[X]
