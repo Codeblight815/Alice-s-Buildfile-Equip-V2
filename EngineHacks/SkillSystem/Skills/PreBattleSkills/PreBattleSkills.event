@@ -444,12 +444,7 @@ HuntersBoon:
 POIN SkillTester
 WORD HuntersBoonID
 
-ALIGN 4
-Loyalty:
-#incbin "Loyalty/Loyalty.dmp"
-POIN SkillTester
-POIN GetUnitsInRange
-WORD LoyaltyID
+//Loyalty now checks for Lord bitflag
 
 ALIGN 4
 OddShaped:

@@ -437,6 +437,9 @@
 #define AxebreakerID 192
 #define BowbreakerID 193
 #define TomebreakerID 194
+#define StaffbreakerID 255
+#define LightbreakerD 255
+#define DarkbreakerID 255
 
 //Charge: Gain +1 damage for every two squares moved.
 //By Datagne
@@ -505,6 +508,9 @@
 #define AxefaireID 197
 #define BowfaireID 198
 #define TomefaireID 199
+#define StafffaireID 255
+#define LightfaireID 255
+#define DarkfaireID 255
 
 //Fiery Blood: +4 damage when HP is not at max.
 //Author Unknown (Initial Commit)
