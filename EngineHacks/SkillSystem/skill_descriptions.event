@@ -431,4 +431,5 @@ SkillDescription(UnderdogID,SD_Underdog)
 SkillDescription(WingedRiderID,SD_WingedRider)
 SkillDescription(WiseTurtleID,SD_WiseTurtle)
 SkillDescription(LadyBladeID,SD_LadyBlade)
+SkillDescription(HighGroundID,SD_HighGround)
  

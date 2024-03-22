@@ -438,7 +438,7 @@
 #define BowbreakerID 193
 #define TomebreakerID 194
 #define StaffbreakerID 255
-#define LightbreakerD 255
+#define LightbreakerID 255
 #define DarkbreakerID 255
 
 //Charge: Gain +1 damage for every two squares moved.
@@ -919,6 +919,10 @@
 //Tome Range +1: Maximum range of equipped tome is increased.
 //By Kirb
 #define TomeRangeUpID 135
+
+//High Ground: Maximum range of all tomes and bows increased by 2 when on specified terrain.
+//By Snerdels
+#define HighGroundID 0
 
 
 //Rounds Data Skills
