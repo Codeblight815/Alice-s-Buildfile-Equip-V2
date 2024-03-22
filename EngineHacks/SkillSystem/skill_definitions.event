@@ -1280,3 +1280,39 @@
 
 #define DefenderID 255
 #define DelivererID 255
+
+#define ConcentrationID 255
+#define DivineProtectionID 255
+#define VolantID 255
+
+#define AirSuperiorityID 255
+#define GambleFE14ID 255
+#define GuardID 255
+#define HeartseekerID 255
+
+//Mikey_Seregon Skills
+
+#define SalvageBlowID 255
+#define WitchsBrewID 255
+
+#define BushidoID 255
+#define CompetitiveID 255
+#define EvenhandedID 255
+#define FierceCounterID 255
+#define HuntersBoonID 255
+#define OddShapedID 255
+#define PhilandererID 255
+#define PrideID 255
+#define ProdigyID 255
+#define RivalryID 255
+#define UnmaskID 255
+
+#define BibliophileID 255
+#define BoldTurtleID 255
+#define EntropyID 255
+#define GracefulRiderID 255
+#define HunterID 255
+#define ShortFuseID 255
+#define UnderdogID 255
+#define WingedRiderID 255
+#define WiseTurtleID 255

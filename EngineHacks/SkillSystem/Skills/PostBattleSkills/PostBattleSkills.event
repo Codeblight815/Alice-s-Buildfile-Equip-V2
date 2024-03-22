@@ -122,6 +122,22 @@ WORD PowerstaffID
 POIN PowerstaffEvent
 #include "Powerstaff/PowerstaffEvent.event"
 
+ALIGN 4
+WitchsBrew:
+#incbin "WitchsBrew/WitchsBrew.dmp"
+POIN SkillTester
+WORD WitchsBrewID
+POIN WitchsBrewEvent
+#include "WitchsBrew/WitchsBrewEvent.event"
+
+ALIGN 4
+SalvageBlow:
+#incbin "SalvageBlow/SalvageBlow.dmp"
+POIN SkillTester
+WORD SalvageBlowID
+POIN SalvageBlowEvent
+#include "SalvageBlow/SalvageBlowEvent.event"
+
 #include "Cultured/Cultured.event"
 
 

@@ -166,5 +166,28 @@ WORD NatureRushID
 WORD CantoID
 WORD CantoPlusID
 
+//
+
+ALIGN 4
+Concentration:
+#incbin "Concentration/Concentration.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD ConcentrationID
+
+ALIGN 4
+DivineProtection:
+#incbin "DivineProtection/DivineProtection.dmp"
+POIN NewAuraSkillCheck
+WORD DivineProtectionID
+
+ALIGN 4
+Volant:
+#incbin "Volant/Volant.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD VolantID
+
+
 #include "ClassTypeSkills/ClassTypeSkills.event"
 

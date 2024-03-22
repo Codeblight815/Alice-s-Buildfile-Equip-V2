@@ -382,6 +382,169 @@ LadyBlade:
 POIN SkillTester
 WORD LadyBladeID
 
+ALIGN 4
+AirSuperiority:
+#incbin "AirSuperiority/AirSuperiority.dmp"
+POIN SkillTester
+WORD AirSuperiorityID
+POIN FlierList
+
+ALIGN 4
+GambleFE14:
+#incbin "GambleFE14/GambleFE14.dmp"
+POIN SkillTester
+WORD GambleFE14ID
+
+ALIGN 4
+Guard:
+#incbin "Guard/Guard.dmp"
+POIN SkillTester
+WORD GuardID
+
+ALIGN 4
+Heartseeker:
+#incbin "Heartseeker/Heartseeker.dmp"
+POIN SkillTester
+WORD HeartseekerID
+
+//Make sure to modify the list if you add or remove any flying classes
+#ifndef FlierClasses
+#define FlierClasses "PegasusKnight FalcoKnight WyvernRider WyvernRider_F WyvernLord WyvernLord_F WyvernKnight WyvernKnight_F Manakete_2 Manakete_2_F Gargoyle Deathgoyle DracoZombie"
+#endif
+FlierList:
+BYTE FlierClasses 0
+
+ALIGN 4
+Bushido:
+#incbin "Bushido/Bushido.dmp"
+POIN SkillTester
+WORD BushidoID
+
+ALIGN 4
+Competitive:
+#incbin "Competitive/Competitive.dmp"
+POIN SkillTester
+WORD CompetitiveID
+
+ALIGN 4
+Evenhanded:
+#incbin "Evenhanded/Evenhanded.dmp"
+POIN SkillTester
+WORD EvenhandedID
+
+ALIGN 4
+FierceCounter:
+#incbin "FierceCounter/FierceCounter.dmp"
+POIN SkillTester
+WORD FierceCounterID
+
+ALIGN 4
+HuntersBoon:
+#incbin "HuntersBoon/HuntersBoon.dmp"
+POIN SkillTester
+WORD HuntersBoonID
+
+ALIGN 4
+Loyalty:
+#incbin "Loyalty/Loyalty.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD LoyaltyID
+
+ALIGN 4
+OddShaped:
+#incbin "OddShaped/OddShaped.dmp"
+POIN SkillTester
+WORD OddShapedID
+
+ALIGN 4
+Rivalry:
+#incbin "Rivalry/Rivalry.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD RivalryID
+
+ALIGN 4
+Unmask:
+#incbin "Unmask/Unmask.dmp"
+POIN SkillTester
+WORD UnmaskID
+
+ALIGN 4
+Bibliophile:
+#incbin "Bibliophile/Bibliophile.dmp"
+POIN SkillTester
+WORD BibliophileID
+POIN ItemTable
+
+ALIGN 4
+BoldTurtle:
+#incbin "BoldTurtle/BoldTurtle.dmp"
+POIN SkillTester
+WORD BoldTurtleID
+
+ALIGN 4
+WiseTurtle:
+#incbin "WiseTurtle/WiseTurtle.dmp"
+POIN SkillTester
+WORD WiseTurtleID
+
+ALIGN 4
+Entropy:
+#incbin "Entropy/Entropy.dmp"
+POIN SkillTester
+WORD EntropyID
+
+ALIGN 4
+GracefulRider:
+#incbin "GracefulRider/GracefulRider.dmp"
+POIN SkillTester
+WORD GracefulRiderID
+
+ALIGN 4
+Hunter:
+#incbin "Hunter/Hunter.dmp"
+POIN SkillTester
+WORD HunterID
+
+ALIGN 4
+ShortFuse:
+#incbin "ShortFuse/ShortFuse.dmp"
+POIN SkillTester
+WORD ShortFuseID
+
+ALIGN 4
+Underdog:
+#incbin "Underdog/Underdog.dmp"
+POIN SkillTester
+WORD UnderdogID
+
+ALIGN 4
+WingedRider:
+#incbin "WingedRider/WingedRider.dmp"
+POIN SkillTester
+WORD WingedRiderID
+WORD FlierType
+
+ALIGN 4
+Pride:
+#incbin "Pride/Pride.dmp"
+POIN SkillTester
+WORD PrideID
+
+ALIGN 4
+Prodigy:
+#incbin "Prodigy/Prodigy.dmp"
+POIN SkillTester
+WORD ProdigyID
+
+ALIGN 4
+Philanderer:
+#incbin "Philanderer/Philanderer.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD PhilandererID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

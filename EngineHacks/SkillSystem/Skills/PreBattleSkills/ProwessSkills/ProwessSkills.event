@@ -1,0 +1,11 @@
+
+ALIGN 4
+ProwessCheck:
+#incbin "ProwessCheck.dmp"
+POIN SkillTester
+POIN ProwessIDList
+
+
+ALIGN 4
+ProwessIDList:
+BYTE SwordProwessID LanceProwessID AxeProwessID BowProwessID TomeProwessID TomeProwessID TomeProwessID TomeProwessID
