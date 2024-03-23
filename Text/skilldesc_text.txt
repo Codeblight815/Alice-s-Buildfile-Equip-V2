@@ -101,7 +101,7 @@ enemy has a bow equipped.[X]
 
 ## SD_Tomebreaker
 Animabreaker: +50 Hit/Avo when[N]
-enemy has a tome equipped.[X]
+enemy has an Anima tome equipped.[X]
 
 ## SD_Aegis
 Aegis: Nullify a magic attack.[N]
