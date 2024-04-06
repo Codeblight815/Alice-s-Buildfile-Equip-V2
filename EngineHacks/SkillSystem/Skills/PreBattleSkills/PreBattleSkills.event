@@ -540,6 +540,14 @@ POIN SkillTester
 POIN GetUnitsInRange
 WORD PhilandererID
 
+ALIGN 4
+RangeAccuracy:
+#incbin "RangeAccuracy/RangeAccuracy.dmp"
+POIN SkillTester
+WORD RangeAccuracyID
+WORD RangeAccuracyNegateID
+
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

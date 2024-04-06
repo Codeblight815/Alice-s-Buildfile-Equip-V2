@@ -621,7 +621,7 @@
 #define SteadyStanceID 251
 #define SturdyStanceID 252
 #define SwiftStanceID 253
-#define WardingStanceID 254
+#define WardingStanceID 255
 #define SpectrumStanceID 255
 //By Sme
 #define AlertStanceID 245
@@ -754,6 +754,13 @@
 //By Snerdels
 #define LadyBladeID 255
 
+//Range Accuracy: Reduces hit at long range
+// By Snerdels
+#define RangeAccuracyID 0
+
+//Range Accuracy Negate
+// By Snerdels
+#define RangeAccuracyNegateID 254
 
 
 //Proc Skills
