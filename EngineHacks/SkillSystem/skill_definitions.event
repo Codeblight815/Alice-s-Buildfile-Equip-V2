@@ -760,7 +760,11 @@
 
 //Range Accuracy Negate
 // By Snerdels
-#define RangeAccuracyNegateID 254
+#define RangeAccuracyNegateID 255
+
+//Saunion
+// By Snerdels
+#define SaunionID 254
 
 
 //Proc Skills

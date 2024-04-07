@@ -547,6 +547,12 @@ POIN SkillTester
 WORD RangeAccuracyID
 WORD RangeAccuracyNegateID
 
+ALIGN 4
+Saunion:
+#incbin "Saunion/Saunion.dmp"
+POIN SkillTester
+WORD SaunionID
+
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
