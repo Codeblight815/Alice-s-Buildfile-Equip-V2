@@ -764,7 +764,7 @@
 
 //Saunion
 // By Snerdels
-#define SaunionID 254
+#define SaunionID 255
 
 
 //Proc Skills
@@ -892,6 +892,10 @@
 //Sol: Restore damage dealt as HP. (Skill % activation)
 //Author Unknown (Initial Commit)
 #define SolID 12
+
+//Solar Brace: Restore 30% of damage dealt as HP.
+//By Snerdels
+#define SolarBraceID 254
 
 //Sure Shot: A precision attack that always hits and does 1.5x damage. (Skill % activation)
 //Author Unknown (Initial Commit)
