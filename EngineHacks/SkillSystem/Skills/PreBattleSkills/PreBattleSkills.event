@@ -553,6 +553,12 @@ Saunion:
 POIN SkillTester
 WORD SaunionID
 
+ALIGN 4
+LunarBraceSkill:
+#incbin "LunarBrace/LunarBrace.dmp"
+POIN SkillTester
+WORD LunarBraceID
+
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
