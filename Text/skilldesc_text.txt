@@ -1822,3 +1822,7 @@ range to all ranged weapon types.[X]
 ## SD_SolarBrace
 Solar Brace: When initiating[N]
 combat, heal 25% of damage dealt.[X]
+
+## SD_LunarBrace
+Lunar Brace: When initiating[N]
+combat, ignore 25% of enemy def/res.[X]
