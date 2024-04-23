@@ -893,9 +893,13 @@
 //Author Unknown (Initial Commit)
 #define SolID 12
 
-//Solar Brace: Restore 30% of damage dealt as HP.
+//Solar Brace: Restore 25% of damage dealt as HP.
 //By Snerdels
-#define SolarBraceID 254
+#define SolarBraceID 255
+
+//Lunar Brace: Ignore 25% of enemy defense.
+//By Snerdels
+#define LunarBraceID 254
 
 //Sure Shot: A precision attack that always hits and does 1.5x damage. (Skill % activation)
 //Author Unknown (Initial Commit)

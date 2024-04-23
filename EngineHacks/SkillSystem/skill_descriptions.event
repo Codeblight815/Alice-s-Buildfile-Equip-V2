@@ -433,4 +433,4 @@ SkillDescription(WiseTurtleID,SD_WiseTurtle)
 SkillDescription(LadyBladeID,SD_LadyBlade)
 SkillDescription(HighGroundID,SD_HighGround)
 SkillDescription(SolarBraceID, SD_SolarBrace)
- 
+SkillDescription(LunarBraceID, SD_LunarBrace)
