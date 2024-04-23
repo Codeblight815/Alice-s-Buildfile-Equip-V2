@@ -555,7 +555,7 @@ WORD SaunionID
 
 ALIGN 4
 LunarBraceSkill:
-#incbin "LunarBrace/LunarBrace.dmp"
+#incbin "LunarBraceSkill/LunarBraceSkill.dmp"
 POIN SkillTester
 WORD LunarBraceID
 
