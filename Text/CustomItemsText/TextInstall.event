@@ -1,0 +1,6 @@
+// Custom Items ASM text installs here
+#include "TrapStavesText.txt"
+#include "BurglarStaffText.txt"
+#include "AgainStaffText.txt"
+#include "StealStaffText.txt"
+#include "RewarpStaffText.txt"

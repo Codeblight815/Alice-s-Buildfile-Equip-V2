@@ -136,3 +136,7 @@ You're frozen! You can still[N]
 act, but you can't move![X]
 
 ## ItemMenuGrayStealText
+This item can[.][NL]
+not be stolen.[.][X]
+
+#include CustomItemsText/TextInstall.event
