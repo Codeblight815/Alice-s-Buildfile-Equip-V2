@@ -134,3 +134,5 @@ a skill when used.[X]
 ## FreezeDesc
 You're frozen! You can still[N]
 act, but you can't move![X]
+
+## ItemMenuGrayStealText

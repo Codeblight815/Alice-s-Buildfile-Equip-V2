@@ -233,11 +233,11 @@ POP
    //Extra FEBuilder patches
  #include "FEBuilder/HacksInstaller.event"
  
- // placeholder mov getter; used for the staff ai
-ALIGN 4
-prGotoMovGetter:
-#include "MovGetter.lyn.event"
-ALIGN 4
+ // placeholder mov getter; used for the staff ai (This is broken. Don't uncomment)
+// ALIGN 4
+// prGotoMovGetter:
+// #include "MovGetter.lyn.event"
+// ALIGN 4
 
 //update ballista traps when a trap is removed
 #include "RemoveTrapFix.lyn.event"
