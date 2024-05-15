@@ -365,6 +365,9 @@ ORG SkillIcon(PragmaticID)
 ORG SkillIcon(ArmsthriftID)
 #incbin "SkillIcons/Armsthrift.dmp"
 
+ORG SkillIcon(BlessingID)
+#incbin "SkillIcons/Acrobat.dmp"
+
 ORG SkillIcon(MoonbowID)
 #incbin "SkillIcons/Moonbow.dmp"
 
