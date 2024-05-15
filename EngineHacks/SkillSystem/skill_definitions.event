@@ -899,7 +899,7 @@
 
 //Lunar Brace: Ignore 25% of enemy defense.
 //By Snerdels
-#define LunarBraceID 254
+#define LunarBraceID 255
 
 //Sure Shot: A precision attack that always hits and does 1.5x damage. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -949,6 +949,10 @@
 //Armsthrift: Luck % chance to not consume weapon durability.
 //Author Unknown (Initial Commit)
 #define ArmsthriftID 138
+
+//Blessing: Guaranteed to not consume weapon durability.
+//By Snerdels
+#define BlessingID 254
 
 //Dazzle: Opponents cannot counterattack this unit.
 //By circleseverywhere

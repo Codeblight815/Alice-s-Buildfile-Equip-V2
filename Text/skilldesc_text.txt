@@ -1826,3 +1826,7 @@ combat, heal 25% of damage dealt.[X]
 ## SD_LunarBrace
 Lunar Brace: When initiating[N]
 combat, ignore 25% of enemy def/res.[X]
+
+## SD_Blessing
+Blessing: Guaranteed to not[N]
+consume weapon durability.[X]
