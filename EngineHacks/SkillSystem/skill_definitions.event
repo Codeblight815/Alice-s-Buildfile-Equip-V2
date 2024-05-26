@@ -253,6 +253,15 @@
 //WingedShield: Prevent effective damage against flying units
 #define WingedShieldID 255
 
+//ArmorShield: Prevent effective damage against armored units
+#define ArmorShieldID 255
+
+//HorseShield: Prevent effective damage against mounted units
+#define HorseShieldID 255
+
+//DragonShield: Prevent effective damage against dragon units
+#define DragonShieldID 255
+
 //Resourceful: Double effectiveness multiplier.
 //By Sme
 #define ResourcefulID 48

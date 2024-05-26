@@ -1115,6 +1115,18 @@ damage to flying units.[X]
 WingedShield: Protects against[N]
 effective damage to flying units.[X]
 
+## SD_ArmorShield
+ArmorShield: Protects against[N]
+effective damage to armored units.[X]
+
+## SD_HorseShield
+HorseShield: Protects against[N]
+effective damage to mounted units.[X]
+
+## SD_DragonShield
+DragonShield: Protects against[N]
+effective damage to dragon units.[X]
+
 ## SD_Resourceful
 Resourceful: Double bonus[N]
 effectiveness multipliers.[X]
