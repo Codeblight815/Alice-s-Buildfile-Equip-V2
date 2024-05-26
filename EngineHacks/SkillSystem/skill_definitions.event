@@ -250,6 +250,9 @@
 //By Sme
 #define SkybreakerID 47
 
+//WingedShield: Prevent effective damage against flying units
+#define WingedShieldID 255
+
 //Resourceful: Double effectiveness multiplier.
 //By Sme
 #define ResourcefulID 48
