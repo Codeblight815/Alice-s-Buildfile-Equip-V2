@@ -71,6 +71,7 @@
 	#include "Redone_Effectiveness.lyn.event"
 	POIN SkillTester
 	WORD NullifyID
+	WORD WingedShieldID
 
 	ALIGN 4
 	Redone_Redone_Slayer:

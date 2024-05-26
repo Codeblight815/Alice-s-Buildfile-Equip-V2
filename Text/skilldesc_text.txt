@@ -1111,6 +1111,10 @@ full, gain +5 resistance.[X]
 Skybreaker: Deal effective[N]
 damage to flying units.[X]
 
+## SD_WingedShield
+WingedShield: Protects against[N]
+effective damage to flying units.[X]
+
 ## SD_Resourceful
 Resourceful: Double bonus[N]
 effectiveness multipliers.[X]

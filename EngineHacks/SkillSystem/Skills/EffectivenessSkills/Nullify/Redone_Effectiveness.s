@@ -3,6 +3,7 @@
 @r0=attacker's item id, r1=defender battle struct
 
 .equ NullifyID, SkillTester+4
+.equ WingedShieldID, NullifyID+4
 
 push	{r4-r7,r14}
 mov		r4,r0
@@ -98,9 +99,20 @@ cmp		r1,#0
 beq		RetFalse
 and		r1,r6				@see if they have bits in common
 cmp		r1,#0
-bne		NullifyCheck
+bne		WingedShield
 add		r4,#4
 b		EffectiveWeaponLoop
+
+WingedShield:
+mov     r7,r1               @copy over the match between the unit class ID and the effectiveness table from earlier
+mov     r0,r5               @copy over the defender class
+ldr		r1,WingedShieldID   @load the skill ID
+ldr		r3,SkillTester      @load the address for skill tester
+mov		r14,r3              @load the skill tester address into the link register
+.short	0xF800              @navigate to the skill tester address
+cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
+beq		NullifyCheck        @branch to check Nullify if they don't have the skill
+b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
 
 NullifyCheck:
 mov		r0,r5
