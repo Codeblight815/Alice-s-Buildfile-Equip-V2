@@ -75,10 +75,10 @@
 	WORD ArmorShieldID
 	WORD HorseShieldID
 	WORD DragonShieldID
-	WORD FlierType
-	WORD ArmorType
-	WORD HorseType
-	WORD DragonType
+	POIN FlierEffectiveness
+	POIN ArmorEffectiveness
+	POIN HorseEffectiveness
+	POIN DragonEffectiveness
 
 	ALIGN 4
 	Redone_Redone_Slayer:
