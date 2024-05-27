@@ -4,6 +4,9 @@
 
 .equ NullifyID, SkillTester+4
 .equ WingedShieldID, NullifyID+4
+.equ ArmorShieldID, WingedShieldID+4
+.equ HorseShieldID, ArmorShieldID+4
+.equ DragonShieldID, HorseShieldID+4
 
 push	{r4-r7,r14}
 mov		r4,r0
@@ -104,14 +107,43 @@ add		r4,#4
 b		EffectiveWeaponLoop
 
 WingedShield:
-mov     r7,r1               @copy over the match between the unit class ID and the effectiveness table from earlier
 mov     r0,r5               @copy over the defender class
 ldr		r1,WingedShieldID   @load the skill ID
 ldr		r3,SkillTester      @load the address for skill tester
 mov		r14,r3              @load the skill tester address into the link register
 .short	0xF800              @navigate to the skill tester address
 cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
-beq		NullifyCheck        @branch to check Nullify if they don't have the skill
+beq		ArmorShield         @branch elsewhere if they don't have the skill
+b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+
+ArmorShield:
+mov     r0,r5               @copy over the defender class
+ldr		r1,ArmorShieldID    @load the skill ID
+ldr		r3,SkillTester      @load the address for skill tester
+mov		r14,r3              @load the skill tester address into the link register
+.short	0xF800              @navigate to the skill tester address
+cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
+beq		HorseShield         @branch elsewhere if they don't have the skill
+b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+
+HorseShield:
+mov     r0,r5               @copy over the defender class
+ldr		r1,HorseShieldID    @load the skill ID
+ldr		r3,SkillTester      @load the address for skill tester
+mov		r14,r3              @load the skill tester address into the link register
+.short	0xF800              @navigate to the skill tester address
+cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
+beq		DragonShield        @branch elsewhere if they don't have the skill
+b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+
+DragonShield:
+mov     r0,r5               @copy over the defender class
+ldr		r1,DragonShieldID   @load the skill ID
+ldr		r3,SkillTester      @load the address for skill tester
+mov		r14,r3              @load the skill tester address into the link register
+.short	0xF800              @navigate to the skill tester address
+cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
+beq		NullifyCheck        @branch elsewhere if they don't have the skill
 b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
 
 NullifyCheck:

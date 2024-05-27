@@ -72,6 +72,9 @@
 	POIN SkillTester
 	WORD NullifyID
 	WORD WingedShieldID
+	WORD ArmorShieldID
+	WORD HorseShieldID
+	WORD DragonShieldID
 
 	ALIGN 4
 	Redone_Redone_Slayer:
@@ -79,7 +82,7 @@
 	POIN SkillTester
 	WORD SlayerID
 	WORD NullifyID
-	WORD MonsterType
+	WORD DragonType // WORD MonsterType
 	WORD SkybreakerID
 	WORD FlierType
 	WORD ResourcefulID
