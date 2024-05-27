@@ -7,10 +7,10 @@
 .equ ArmorShieldID, WingedShieldID+4
 .equ HorseShieldID, ArmorShieldID+4
 .equ DragonShieldID, HorseShieldID+4
-.equ FlierType, DragonShieldID+4
-.equ ArmorType, FlierType+4
-.equ HorseType, ArmorType+4
-.equ DragonType, HorseType+4
+.equ FlierEffectiveness, DragonShieldID+4
+.equ ArmorEffectiveness, FlierEffectiveness+4
+.equ HorseEffectiveness, ArmorEffectiveness+4
+.equ DragonEffectiveness, HorseEffectiveness+4
 
 push	{r4-r7,r14}
 mov		r4,r0
@@ -119,14 +119,10 @@ mov		r14,r3              @load the skill tester address into the link register
 cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
 beq		ArmorShield         @branch elsewhere if they don't have the skill
 
-ldr		r2,[r5,#4]
-mov		r1,#0x50
-ldrh	r2,[r2,r1]			@weaknesses defender unit has
-ldrh 	r0,FlierType
-and		r0,r2
-cmp		r0,#0
-beq		ArmorShield
-b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+ldr r3,FlierEffectiveness   @load the flier effectiveness table
+cmp r3,r4                   @compare it to the effectiveness table of the current weapon the attacker is holding
+bne ArmorShield             @if it's not a match (the weapon targets a class this skill doesn't protect against) then move to the section
+b   RetFalse                @otherwise, we've found a match and activate the skill to nullify the effective damage
 
 ArmorShield:
 mov     r0,r5               @copy over the defender class
@@ -137,14 +133,10 @@ mov		r14,r3              @load the skill tester address into the link register
 cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
 beq		HorseShield         @branch elsewhere if they don't have the skill
 
-ldr		r2,[r5,#4]
-mov		r1,#0x50
-ldrh	r2,[r2,r1]			@weaknesses defender unit has
-ldrh 	r0,ArmorType
-and		r0,r2
-cmp		r0,#0
-beq		HorseShield
-b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+ldr r3,ArmorEffectiveness   @load the armor effectiveness table
+cmp r3,r4                   @compare it to the effectiveness table of the current weapon the attacker is holding
+bne HorseShield             @if it's not a match (the weapon targets a class this skill doesn't protect against) then move to the section
+b   RetFalse                @otherwise, we've found a match and activate the skill to nullify the effective damagebne HorseShield
 
 HorseShield:
 mov     r0,r5               @copy over the defender class
@@ -155,14 +147,10 @@ mov		r14,r3              @load the skill tester address into the link register
 cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
 beq		DragonShield        @branch elsewhere if they don't have the skill
 
-ldr		r2,[r5,#4]
-mov		r1,#0x50
-ldrh	r2,[r2,r1]			@weaknesses defender unit has
-ldrh 	r0,HorseType
-and		r0,r2
-cmp		r0,#0
-beq		DragonShield
-b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+ldr r3,HorseEffectiveness   @load the horse effectiveness table
+cmp r3,r4                   @compare it to the effectiveness table of the current weapon the attacker is holding
+bne DragonShield            @if it's not a match (the weapon targets a class this skill doesn't protect against) then move to the section
+b   RetFalse                @otherwise, we've found a match and activate the skill to nullify the effective damage
 
 DragonShield:
 mov     r0,r5               @copy over the defender class
@@ -173,14 +161,14 @@ mov		r14,r3              @load the skill tester address into the link register
 cmp		r0,#0               @check if the user has the skill (0 means no, 1 means yes)
 beq		NullifyCheck        @branch elsewhere if they don't have the skill
 
-ldr		r2,[r5,#4]
-mov		r1,#0x50
-ldrh	r2,[r2,r1]			@weaknesses defender unit has
-ldrh 	r0,DragonType
-and		r0,r2
-cmp		r0,#0
-beq		NullifyCheck
-b		RetFalse            @otherwise, if there's a match, branch to set the effectiveness to 0
+ldr r3,DragonEffectiveness  @load the dragon effectiveness table
+cmp r3,r4                   @compare it to the effectiveness table of the current weapon the attacker is holding
+bne NullifyCheck            @if it's not a match (the weapon targets a class this skill doesn't protect against) then move to the section
+b   RetFalse                @otherwise, we've found a match and activate the skill to nullify the effective damage
+
+
+@dragon and flier weakness as an exmaple
+@how do I ensure, that given the enemy's weapon being a bow it still deals effective damage for this skill?
 
 NullifyCheck:
 mov		r0,r5
