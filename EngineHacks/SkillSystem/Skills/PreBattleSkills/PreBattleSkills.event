@@ -559,6 +559,13 @@ LunarBraceSkill:
 POIN SkillTester
 WORD LunarBraceID
 
+ALIGN 4
+WeaponInsight:
+#incbin "WeaponInsight/WeaponInsight.dmp"
+POIN SkillTester
+POIN ItemTable
+WORD WeaponInsightID
+
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 

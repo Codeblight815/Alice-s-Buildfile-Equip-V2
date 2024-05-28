@@ -1846,3 +1846,8 @@ combat, ignore 25% of enemy def/res.[X]
 ## SD_Blessing
 Blessing: Guaranteed to not[N]
 consume weapon durability.[X]
+
+## SD_WeaponInsight
+WeaponInsight: Add +20 crit[N]
+if the user's weapon has a[N]
+higher rank than the enemy's.[X]
