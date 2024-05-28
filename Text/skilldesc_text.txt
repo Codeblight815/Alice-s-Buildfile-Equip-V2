@@ -1846,3 +1846,8 @@ combat, ignore 25% of enemy def/res.[X]
 ## SD_Blessing
 Blessing: Guaranteed to not[N]
 consume weapon durability.[X]
+
+## SD_CarefulAim
+CarefulAim: +30 hit if[N] 
+the user initiates combat[N] 
+without moving.[X]

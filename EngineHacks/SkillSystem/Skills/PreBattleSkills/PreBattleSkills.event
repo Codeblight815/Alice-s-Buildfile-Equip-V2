@@ -559,6 +559,12 @@ LunarBraceSkill:
 POIN SkillTester
 WORD LunarBraceID
 
+ALIGN 4
+CarefulAim:
+#incbin "CarefulAim/CarefulAim.dmp"
+POIN SkillTester
+WORD CarefulAimID
+
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 

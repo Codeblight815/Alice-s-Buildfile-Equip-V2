@@ -778,6 +778,9 @@
 // By Snerdels
 #define SaunionID 255
 
+//CarefulAim: +30 hit if the user initiates combat without moving
+//By Jester
+#define CarefulAimID 255
 
 //Proc Skills
 
