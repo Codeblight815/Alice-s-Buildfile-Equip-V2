@@ -565,6 +565,12 @@ CarefulAim:
 POIN SkillTester
 WORD CarefulAimID
 
+WeaponInsight:
+#incbin "WeaponInsight/WeaponInsight.dmp"
+POIN SkillTester
+POIN ItemTable
+WORD WeaponInsightID
+
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 

@@ -1851,3 +1851,8 @@ consume weapon durability.[X]
 CarefulAim: +30 hit if[N] 
 the user initiates combat[N] 
 without moving.[X]
+
+## SD_WeaponInsight
+WeaponInsight: Add +20 crit[N]
+if the user's weapon has a[N]
+higher rank than the enemy's.[X]
