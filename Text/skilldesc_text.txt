@@ -1699,8 +1699,8 @@ Strong Lift: Unit has +5 Aid[N]
 without changing their Con.[X]
 
 ## SD_AirSuperiority
-Air Superiority: Against flying[N]
-foes, grants +30 Hit/Avo.[X]
+Air Superiority: Grants the user[N]
++30 Hit/Avd against Flying units.[X]
 
 ## SD_Concentration
 Concentration: If unit is not adjacent[N]
