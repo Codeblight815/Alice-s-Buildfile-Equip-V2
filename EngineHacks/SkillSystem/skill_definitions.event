@@ -778,10 +778,13 @@
 // By Snerdels
 #define SaunionID 255
 
+//CarefulAim: +30 hit if the user initiates combat without moving
+//By Jester
+#define CarefulAimID 255
+
 //WeaponInsight: Add 20 crit if the user's equipped weapon has a higher rank than the enemy's
 //By Jester
 #define WeaponInsightID 255
-
 
 //Proc Skills
 

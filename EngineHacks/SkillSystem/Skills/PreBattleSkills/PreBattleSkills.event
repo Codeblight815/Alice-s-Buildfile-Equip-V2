@@ -560,6 +560,11 @@ POIN SkillTester
 WORD LunarBraceID
 
 ALIGN 4
+CarefulAim:
+#incbin "CarefulAim/CarefulAim.dmp"
+POIN SkillTester
+WORD CarefulAimID
+
 WeaponInsight:
 #incbin "WeaponInsight/WeaponInsight.dmp"
 POIN SkillTester
