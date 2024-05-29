@@ -39,7 +39,7 @@ beq End             @branch to the end if so
 cmp r2, #0          @check if the attacker's weapon rank is prf (0)
 beq End             @branch to the end if so
 cmp r0, r2          @now compare the weapon ranks of both units' equipped weapons
-bgt ApplySkill      @if the attacker's has a higher rank, branch to apply the skill
+blt ApplySkill      @if the attacker's has a lower rank, branch to apply the skill
 b   End             @otherwise, branch to the end
 
 ApplySkill:
