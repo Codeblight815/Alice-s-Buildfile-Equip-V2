@@ -1135,6 +1135,9 @@ ORG SkillIcon(DragonShieldID)
 ORG SkillIcon(CarefulAimID)
 #incbin "SkillIcons/Acrobat.dmp"
 
+ORG SkillIcon(StalwartID)
+#incbin "SkillIcons/Stalwart.dmp"
+
 ORG SkillIcon(WeaponInsightID)
 #incbin "SkillIcons/Acrobat.dmp"
 
