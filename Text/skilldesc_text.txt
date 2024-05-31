@@ -1852,6 +1852,10 @@ CarefulAim: +30 hit if[N]
 the user initiates combat[N] 
 without moving.[X]
 
+## SD_Stalwart
+Stalwart: This unit is[N]
+immune to status effects.[X]
+
 ## SD_WeaponInsight
 WeaponInsight: Add +20 crit[N]
 if the user's weapon has a[N]

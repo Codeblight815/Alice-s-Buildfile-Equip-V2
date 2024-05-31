@@ -782,9 +782,14 @@
 //By Jester
 #define CarefulAimID 255
 
+//Stalwart: This unit is immune to status effects
+//By Jester
+#define StalwartID 255
+
 //WeaponInsight: Add 20 crit if the user's equipped weapon has a higher rank than the enemy's
 //By Jester
 #define WeaponInsightID 255
+
 
 //Proc Skills
 

@@ -60,6 +60,8 @@ POIN KeenFighter SteadyBrawler // % Damage reduction if doubling goes near end
 POIN TowerShieldPlus
 // Dragonskin goes after anything effecting atk or def
 POIN Dragonskin MultiscaleEffect FlankEffect SwarmEffect
+// This effects hit rate, so we want it near the end
+POIN Stalwart_Weapon
 // Because of how killing machine works, critical check should always be done last
 POIN CriticalCheck
 #ifdef CANNOT_CRIT
