@@ -565,6 +565,13 @@ CarefulAim:
 POIN SkillTester
 WORD CarefulAimID
 
+ALIGN 4
+Stalwart_Weapon:
+#incbin "Stalwart/Stalwart.dmp"
+POIN SkillTester
+POIN ItemTable
+WORD StalwartID
+
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 

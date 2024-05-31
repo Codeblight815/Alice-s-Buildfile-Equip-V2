@@ -782,6 +782,10 @@
 //By Jester
 #define CarefulAimID 255
 
+//Stalwart: This unit is immune to status effects
+//By Jester
+#define StalwartID 255
+
 //Proc Skills
 
 //Adept: Gain a consecutive attack. (Speed % activation)

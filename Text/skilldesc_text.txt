@@ -1851,3 +1851,7 @@ consume weapon durability.[X]
 CarefulAim: +30 hit if[N] 
 the user initiates combat[N] 
 without moving.[X]
+
+## SD_Stalwart
+Stalwart: This unit is[N]
+immune to status effects.[X]
