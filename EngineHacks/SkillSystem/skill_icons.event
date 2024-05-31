@@ -1141,6 +1141,8 @@ ORG SkillIcon(StalwartID)
 ORG SkillIcon(WeaponInsightID)
 #incbin "SkillIcons/Acrobat.dmp"
 
+ORG SkillIcon(CircletID)
+#incbin "SkillIcons/Acrobat.dmp"
 
 ORG SkillIcons+0x8000
 

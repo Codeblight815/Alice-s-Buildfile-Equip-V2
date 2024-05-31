@@ -318,6 +318,10 @@
 //By Sme
 #define ImbueID 88
 
+//Circlet: Grants both the effects of Miracle and Renewal
+//By Jester
+#define CircletID 255
+
 //Movement Skills
 
 //Acrobat: All traversable terrain costs 1 movement.
