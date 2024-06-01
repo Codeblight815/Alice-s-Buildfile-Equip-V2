@@ -322,6 +322,10 @@
 //By Sme
 #define ImbueID 88
 
+//Circlet: Grants both the effects of Miracle and Renewal
+//By Jester
+#define CircletID 255
+
 //Movement Skills
 
 //Acrobat: All traversable terrain costs 1 movement.
@@ -786,9 +790,14 @@
 //By Jester
 #define CarefulAimID 255
 
+//Stalwart: This unit is immune to status effects
+//By Jester
+#define StalwartID 255
+
 //WeaponInsight: Add 20 crit if the user's equipped weapon has a higher rank than the enemy's
 //By Jester
 #define WeaponInsightID 255
+
 
 //Proc Skills
 

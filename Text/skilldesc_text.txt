@@ -1852,6 +1852,10 @@ CarefulAim: +30 hit if[N]
 the user initiates combat[N] 
 without moving.[X]
 
+## SD_Stalwart
+Stalwart: This unit is[N]
+immune to status effects.[X]
+
 ## SD_WeaponInsight
 WeaponInsight: Add +20 crit[N]
 if the user's weapon has a[N]
@@ -1861,3 +1865,8 @@ higher rank than the enemy's.[X]
 RallyingCry: Allies deal +2[N]
 damage and enemies deal -2[N]
 in a 4 tile radius of the user.[X]
+
+## SD_Circlet
+Circlet: Grants the[N]
+effects of both[N]
+Miracle and Renewal[X]
