@@ -1856,3 +1856,8 @@ without moving.[X]
 WeaponInsight: Add +20 crit[N]
 if the user's weapon has a[N]
 higher rank than the enemy's.[X]
+
+## SD_RallyingCry
+RallyingCry: Allies deal +2[N]
+damage and enemies deal -2[N]
+in a 4 tile radius of the user.[X]
