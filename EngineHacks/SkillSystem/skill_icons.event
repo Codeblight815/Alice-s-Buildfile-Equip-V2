@@ -1141,6 +1141,9 @@ ORG SkillIcon(StalwartID)
 ORG SkillIcon(WeaponInsightID)
 #incbin "SkillIcons/Acrobat.dmp"
 
+ORG SkillIcon(RallyingCryID)
+#incbin "SkillIcons/ForeignPrincess.dmp"
+
 ORG SkillIcon(CircletID)
 #incbin "SkillIcons/Acrobat.dmp"
 

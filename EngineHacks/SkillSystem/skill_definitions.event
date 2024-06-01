@@ -132,6 +132,10 @@
 #define ArmorboostID 156
 #define ArmorBoostID ArmorboostID //Alias\
 
+//RallyingCry: Allies deal +2 damage and enemies deal -2 damage in a 4 tile radius of the user.
+//By Jester
+#define RallyingCryID 255
+
 
 // Turn Skills
 
