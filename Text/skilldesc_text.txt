@@ -1700,7 +1700,7 @@ without changing their Con.[X]
 
 ## SD_AirSuperiority
 Air Superiority: Grants the user[N]
-+30 Hit/Avd against Flying units.[X]
++30 Hit/Avd against non-flier units.[X]
 
 ## SD_Concentration
 Concentration: If unit is not adjacent[N]
