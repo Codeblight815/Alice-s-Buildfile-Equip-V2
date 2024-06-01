@@ -21,17 +21,7 @@ ldrb r1,[r1]
 cmp r0,#0
 beq GoBack
 
-  @check for allies in range:
-  ldr r0, =GetUnitsInRange
-  mov lr, r0
-  mov r0, r4 @unit
-  mov r1, #0 @same_team
-  mov r2, #2 @range
-  .short 0xf800
-  cmp r0, #0
-  bne GoBack
-    @if no allies in range, heal 20%
-    add r5, #20
+add r5,#10
 
 GoBack:
 mov r0,r5

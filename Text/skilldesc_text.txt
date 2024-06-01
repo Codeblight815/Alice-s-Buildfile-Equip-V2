@@ -373,8 +373,8 @@ Savage Blow: After attacking, enemies[N]
 within 2 tiles take 20% damage.[X]
 
 ## SD_Relief
-Relief: Recover 20% HP each turn if[N]
-there are no allies within 2 tiles.[X]
+Relief: Restore 10% of max HP[N]
+at the start of each turn.[X]
 
 ## SD_Tantivy
 Tantivy: +10 Hit/Avoid if there are[N]
