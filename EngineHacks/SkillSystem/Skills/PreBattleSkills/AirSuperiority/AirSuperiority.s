@@ -12,7 +12,7 @@ ldr		r0, [r5, #0x04]
 mov		r1, #0x50
 ldrb	r0, [r0, r1]
 ldr		r1, FlierType
-tst		r0, r1
+cmp		r0, r1
 bne		End
 
 @has AirSuperiority
