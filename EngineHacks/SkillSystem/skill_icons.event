@@ -84,7 +84,7 @@ ORG SkillIcon(DeathBlowID)
 #incbin "SkillIcons/DeathBlow.dmp"
 
 ORG SkillIcon(DartingBlowID)
-#incbin "SkillIcons/DartingBlow.dmp"
+#incbin "SkillIcons/PursuitNew.dmp"
 
 ORG SkillIcon(WardingBlowID)
 #incbin "SkillIcons/WardingBlow.dmp"
@@ -132,7 +132,7 @@ ORG SkillIcon(CritUpID)
 #incbin "SkillIcons/CritUp.dmp"
 
 ORG SkillIcon(SlayerID)
-#incbin "SkillIcons/Slayer.dmp"
+#incbin "SkillIcons/SlayerNew.dmp"
 
 ORG SkillIcon(SummonID)
 #incbin "SkillIcons/Summon.dmp"
@@ -234,7 +234,7 @@ ORG SkillIcon(RallySpectrumID)
 #incbin "SkillIcons/RallySpectrum.dmp"
 
 ORG SkillIcon(BowRangeUpID)
-#incbin "SkillIcons/BowRangeUp.dmp"
+#incbin "SkillIcons/BowRangeNew.dmp"
 
 ORG SkillIcon(StaffSavantID)
 #incbin "SkillIcons/StaffSavant.dmp"
@@ -366,7 +366,7 @@ ORG SkillIcon(ArmsthriftID)
 #incbin "SkillIcons/Armsthrift.dmp"
 
 ORG SkillIcon(BlessingID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/Blessing.dmp"
 
 ORG SkillIcon(MoonbowID)
 #incbin "SkillIcons/Moonbow.dmp"
@@ -615,7 +615,7 @@ ORG SkillIcon(DisciplinePlusID)
 #incbin "SkillIcons/DisciplinePlus.dmp"
 
 ORG SkillIcon(WatchfulID)
-#incbin "SkillIcons/Watchful.dmp"
+#incbin "SkillIcons/WatchfulNew.dmp"
 
 ORG SkillIcon(HeroID)
 #incbin "SkillIcons/Hero.dmp"
@@ -708,13 +708,13 @@ ORG SkillIcon(DefiantResID)
 #incbin "SkillIcons/DefiantRes.dmp"
 
 ORG SkillIcon(BargainID)
-#incbin "SkillIcons/Bargain.dmp"
+#incbin "SkillIcons/BargainNew.dmp"
 
 ORG SkillIcon(ShortShieldID)
 #incbin "SkillIcons/ShortShield.dmp"
 
 ORG SkillIcon(TowerShieldID)
-#incbin "SkillIcons/TowerShield.dmp"
+#incbin "SkillIcons/PlatedArmor.dmp"
 
 ORG SkillIcon(TowerShieldPlusID)
 #incbin "SkillIcons/TowerShieldPlus.dmp"
@@ -729,7 +729,7 @@ ORG SkillIcon(OutdoorFighterID)
 #incbin "SkillIcons/OutdoorFighter.dmp"
 
 ORG SkillIcon(TomeRangeUpID)
-#incbin "SkillIcons/TomeRangeUp.dmp"
+#incbin "SkillIcons/TomeRangeNew.dmp"
 
 ORG SkillIcon(AlertStanceID)
 #incbin "SkillIcons/AlertStance.dmp"
@@ -1121,31 +1121,34 @@ ORG SkillIcon(LunarBraceID)
 #incbin "SkillIcons/LunarBrace.dmp"
 
 ORG SkillIcon(WingedShieldID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/WingedShield.dmp"
 
 ORG SkillIcon(ArmorShieldID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/ArmorShield.dmp"
 
 ORG SkillIcon(HorseShieldID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/HorseShield.dmp"
 
 ORG SkillIcon(DragonShieldID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/DragonShield.dmp"
 
 ORG SkillIcon(CarefulAimID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/CarefulAim.dmp"
 
 ORG SkillIcon(StalwartID)
 #incbin "SkillIcons/Stalwart.dmp"
 
 ORG SkillIcon(WeaponInsightID)
-#incbin "SkillIcons/Acrobat.dmp"
+#incbin "SkillIcons/WeaponInsight.dmp"
 
 ORG SkillIcon(RallyingCryID)
 #incbin "SkillIcons/ForeignPrincess.dmp"
 
 ORG SkillIcon(CircletID)
 #incbin "SkillIcons/Acrobat.dmp"
+
+ORG SkillIcon(SalvageBlowID)
+#incbin "SkillIcons/SalvageBlow.dmp"
 
 ORG SkillIcons+0x8000
 
