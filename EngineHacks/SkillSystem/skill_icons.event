@@ -1147,6 +1147,9 @@ ORG SkillIcon(RallyingCryID)
 ORG SkillIcon(CircletID)
 #incbin "SkillIcons/Acrobat.dmp"
 
+ORG SkillIcon(AirSuperiorityID)
+#incbin "SkillIcons/Acrobat.dmp"
+
 ORG SkillIcon(SalvageBlowID)
 #incbin "SkillIcons/SalvageBlow.dmp"
 

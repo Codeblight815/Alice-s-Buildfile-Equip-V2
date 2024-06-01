@@ -387,7 +387,8 @@ AirSuperiority:
 #incbin "AirSuperiority/AirSuperiority.dmp"
 POIN SkillTester
 WORD AirSuperiorityID
-POIN FlierList
+//POIN FlierList
+WORD FlierType
 
 ALIGN 4
 GambleFE14:
