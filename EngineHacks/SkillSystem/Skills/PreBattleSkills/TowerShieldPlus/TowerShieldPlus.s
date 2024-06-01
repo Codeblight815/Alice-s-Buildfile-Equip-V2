@@ -13,7 +13,7 @@ mov r5, r1
 @check range
 ldr r0,=#0x203A4D4 @battle stats
 ldrb r0,[r0,#2] @range
-cmp r0,#1
+cmp r0,#2
 ble GoBack
 
 @check for skill

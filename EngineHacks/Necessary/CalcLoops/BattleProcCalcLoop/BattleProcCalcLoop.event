@@ -52,7 +52,7 @@ POIN Proc_Bane DownWithArch Proc_Lethality	//skills that set damage to max
 
 POIN Proc_CapDamage	//check that damage is not over cap
 
-POIN Proc_Foresight Proc_Miracle Proc_Mercy Proc_Aegis Proc_Pavise Proc_GreatShield 	//skills that set damage to 0 or lower it
+POIN Proc_Foresight Proc_Miracle Proc_Mercy Proc_Aegis Proc_Pavise Proc_GreatShield Circlet_Miracle 	//skills that set damage to 0 or lower it
 
 POIN Proc_StealHP 
 
@@ -67,6 +67,8 @@ POIN Proc_SolarBrace
 POIN Proc_AetherHeal	//skills that heal based on final damage
 
 POIN Proc_BlackMagic Proc_Petrify Proc_Enrage Proc_Deadeye //skills that apply a status effect
+
+POIN Stalwart_Skill // Putting this here to ensure no other status skills overwrite it
 
 #ifdef STATUS_WEAPONS
 	POIN Proc_StatusWeapons

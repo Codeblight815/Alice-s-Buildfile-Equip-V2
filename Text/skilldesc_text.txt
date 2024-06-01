@@ -120,7 +120,7 @@ Death Blow: +20 Crit[N]
 when initiating battle.[X]
 
 ## SD_DartingBlow
-Darting Blow: +5 Attack Speed[N]
+Pursuit: +4 Attack Speed[N]
 when initiating battle.[X]
 
 ## SD_WardingBlow
@@ -183,8 +183,9 @@ when equipping an Anima tome.[X]
 Crit Boost: +15 critical rate.[X]
 
 ## SD_Slayer
-Slayer: Deal effective damage[N]
-to monster units.[X]
+Wyrmsbane: User deals effective[N]
+damage against Dragon units.[N]
+Pierces effective protection.[X]
 
 ## SD_Summon
 Summon: Can conjure a phantom[N]
@@ -373,8 +374,8 @@ Savage Blow: After attacking, enemies[N]
 within 2 tiles take 20% damage.[X]
 
 ## SD_Relief
-Relief: Recover 20% HP each turn if[N]
-there are no allies within 2 tiles.[X]
+Relief: Restore 10% of max HP[N]
+at the start of each turn.[X]
 
 ## SD_Tantivy
 Tantivy: +10 Hit/Avoid if there are[N]
@@ -981,16 +982,16 @@ or lower, gain +4 Resistance.[X]
 Bargain: Halves prices in shops.[X]
 
 ## SD_ShortShield
-Short Shield: Gain 6 defense[N]
+Short Shield: Gain 5 defense[N]
 against attacks recieved in melee.[X]
 
 ## SD_TowerShield
-Tower Shield: Gain 6 defense[N]
+Plated Armor: Take -5 damage[N]
 against attacks recieved at range.[X]
 
 ## SD_TowerShieldPlus
-Tower Shield+: Take no damage[N]
-against attacks recieved at range.[X]
+Unwavering: Take no damage from[N]
+attacks further than 2 range.[X]
 
 ## SD_VoidCurse
 Void Curse: This unit gives[N]
@@ -1852,7 +1853,21 @@ CarefulAim: +30 hit if[N]
 the user initiates combat[N] 
 without moving.[X]
 
+## SD_Stalwart
+Stalwart: This unit is[N]
+immune to status effects.[X]
+
 ## SD_WeaponInsight
 WeaponInsight: Add +20 crit[N]
 if the user's weapon has a[N]
 higher rank than the enemy's.[X]
+
+## SD_RallyingCry
+RallyingCry: Allies deal +2[N]
+damage and enemies deal -2[N]
+in a 4 tile radius of the user.[X]
+
+## SD_Circlet
+Circlet: Grants the[N]
+effects of both[N]
+Miracle and Renewal[X]
