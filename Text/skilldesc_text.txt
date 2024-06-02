@@ -1784,8 +1784,8 @@ Pride: If unit’s level is lower[N]
 than the enemy, +4 Damage.[X]
 
 ## SD_Prodigy
-If unit’s Power is lower than[N]
-enemy’s Power, +4 Damage.[X]
+Prodigy: If unit’s Power is lower[N]
+than enemy’s Power, +4 Damage.[X]
 
 ## SD_Rivalry
 Rivalry: +2/-2 damage dealt/taken[N]
@@ -1871,3 +1871,11 @@ in a 4 tile radius of the user.[X]
 Circlet: Grants the[N]
 effects of both[N]
 Miracle and Renewal[X]
+
+## SD_Saunion
+Saunion: +5 hit. Put this[N]
+on the Saunion lance.[X]
+
+## SD_RangeAccuracyNegate
+RangeAccuracyNegate: Negates[N]
+hit diminish on ranged weapons.[X]
