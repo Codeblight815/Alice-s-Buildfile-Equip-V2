@@ -1879,3 +1879,7 @@ on the Saunion lance.[X]
 ## SD_RangeAccuracyNegate
 RangeAccuracyNegate: Negates[N]
 hit diminish on ranged weapons.[X]
+
+## SD_ArmsMaster
+Arms Master: Unit can S rank[N]
+more than one weapon type.[X]

@@ -1288,6 +1288,10 @@
 //By Zeta
 #define DisciplinePlusID 98
 
+//Arms Master: Unit can S rank more than one weapon.
+// By Snerdels
+#define ArmsMasterID 255
+
 //Watchful: This unit cannot be captured or stolen from.
 //By Sme
 #define WatchfulID 108
