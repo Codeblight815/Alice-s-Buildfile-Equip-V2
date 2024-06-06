@@ -798,10 +798,6 @@
 //By Jester
 #define WeaponInsightID 255
 
-//FairFight: Add 20 hit to both sides
-//By Jester
-#define FairFightID
-
 
 //Proc Skills
 

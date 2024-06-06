@@ -310,7 +310,6 @@ NegatedSkillEntry(EnrageID)
 NegatedSkillEntry(DeadeyeID)
 NegatedSkillEntry(DragonFangID)
 NegatedSkillEntry(FortuneID)
-NegatedSkillEntry(FairFightID)
 
 /*
 //NOT WORKING (or they should not be affected by nihil)

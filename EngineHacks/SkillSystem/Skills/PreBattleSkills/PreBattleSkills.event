@@ -579,12 +579,6 @@ POIN SkillTester
 POIN ItemTable
 WORD WeaponInsightID
 
-ALIGN 4
-FairFight:
-#incbin "FairFight/FairFight.dmp"
-POIN SkillTester
-WORD FairFightID
-
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

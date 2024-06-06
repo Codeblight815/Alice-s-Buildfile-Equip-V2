@@ -1883,7 +1883,3 @@ hit diminish on ranged weapons.[X]
 ## SD_ArmsMaster
 Arms Master: Unit can S rank[N]
 more than one weapon type.[X]
-
-## SD_FairFight
-FairFight: Add 20 hit[N]
-to both sides.[X]
