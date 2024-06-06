@@ -14,6 +14,12 @@ ldr r1, FairFightID
 cmp r0, #0
 beq End
 
+@check if the opposing unit can counter
+mov r1,#0x52
+ldrb r0,[r5,r1] @load the 'can counter' byte value
+cmp r0, #1      @check if it's 1 - can counter or 0 - can't counter
+bne End         @if it's 0, then we branch to the end
+
 @add 20% battle hit on both sides
 mov r1, #0x60 
 ldrsh r0, [r4, r1] @hit

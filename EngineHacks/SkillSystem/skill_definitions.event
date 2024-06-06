@@ -800,14 +800,14 @@
 
 //FairFight: Add 20 hit to both sides
 //By Jester
-#define FairFightID
+#define FairFightID 14
 
 
 //Proc Skills
 
 //Adept: Gain a consecutive attack. (Speed % activation)
 //Author Unknown (Initial Commit)
-#define AdeptID 14
+#define AdeptID 255
 
 //Aegis: Nullify a magic attack. (Skill % activation)
 //Author Unknown (Initial Commit)
