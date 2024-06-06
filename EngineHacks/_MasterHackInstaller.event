@@ -233,6 +233,8 @@ POP
    //Extra FEBuilder patches
  #include "FEBuilder/HacksInstaller.event"
  
+ #include "Others/MasterInstaller.event"
+ 
  // placeholder mov getter; used for the staff ai (This is broken. Don't uncomment)
 // ALIGN 4
 // prGotoMovGetter:
