@@ -800,7 +800,7 @@
 
 //FairFight: Add 20 hit to both sides
 //By Jester
-#define FairFightID
+#define FairFightID 255
 
 
 //Proc Skills
