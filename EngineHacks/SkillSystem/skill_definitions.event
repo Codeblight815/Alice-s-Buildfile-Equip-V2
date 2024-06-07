@@ -800,7 +800,7 @@
 
 //FairFight: Add 20 hit to both sides
 //By Jester
-#define FairFightID 17
+#define FairFightID 255
 
 
 //Proc Skills
@@ -1327,6 +1327,9 @@
 // Author: Vesly 
 #define ShrewdPotentialID 255
 
+//Nonconforming: Inverts the effects of the weapon triangle.
+//By Jester
+#define NonconformingID 17
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme

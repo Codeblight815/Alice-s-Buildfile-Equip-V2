@@ -1887,3 +1887,7 @@ more than one weapon type.[X]
 ## SD_FairFight
 FairFight: Add 20 hit[N]
 to both sides.[X]
+
+## SD_Nonconforming
+Reaver Adept: Invert the effects[N]
+of the weapon triangle.[X]
