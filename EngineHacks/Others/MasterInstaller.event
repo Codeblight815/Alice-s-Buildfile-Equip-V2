@@ -1,3 +1,4 @@
 // This installs extra ASM
 
 #include "SupportPostBattle/Installer.event"
+#include "ExtendWeaponDescBox/Installer.event"
