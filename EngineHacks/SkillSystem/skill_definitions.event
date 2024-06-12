@@ -792,7 +792,7 @@
 
 //Stalwart: This unit is immune to status effects
 //By Jester
-#define StalwartID 255
+#define StalwartID 17
 
 //WeaponInsight: Add 20 crit if the user's equipped weapon has a higher rank than the enemy's
 //By Jester
@@ -1329,7 +1329,7 @@
 
 //Nonconforming: Inverts the effects of the weapon triangle.
 //By Jester
-#define NonconformingID 17
+#define NonconformingID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
