@@ -8,3 +8,12 @@
 
 //#include "ChapterScreenPokémblem/ChapterScreen.event"
 // by Huichelaar and Vesly
+
+#include "SupplyView/SupplyView.event"
+// by AuraWolf
+
+#include "SetNameFixes/SetNameFixes.event"
+// by AuraWolf
+
+#include "Panacea/Panacea.event"
+// by MintX
