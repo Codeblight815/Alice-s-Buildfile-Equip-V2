@@ -410,4 +410,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 //If you are using Str/Mag Split, these are instead located in
 //ExternalHacks/StrMagSplit/ModularStatScreen/DisplayGrowthsOptions.
 
+//Separate Magic Sword Rework installation without using Str/Mag Split
+#include "ExternalHacks/StrMagSplit/StrMagSplit/MagicSwordRework/MagicSwordRework.event"
+
 #endif // HAX_CONFIG
